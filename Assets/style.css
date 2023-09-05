@@ -2,9 +2,13 @@
 body {
     font-family: 'Arial', sans-serif;
 }
-/* header {
-    position: relative
-} */
+button {
+    font-size: 16px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: purple;
+}
 #view-high-scores {
     height: 125px;
     width: 50%;
@@ -33,7 +37,7 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    height: 170px;
+    height: 200px;
     margin: 10px 250px 10px 350px;
 }
 #choice-result {
@@ -44,17 +48,30 @@ body {
     color: lightgray;
 }
 
-/* .answer-button {
-    width: "100px";
-    height: "40px";
-    font-size: "14px";
-    color: "white";
-    background-color: "purple";
-} */
-
 #delete-this-selector {
     color: rgb(248, 87, 240);
     color: rgb(173, 117, 173);
+    color: rgb(212, 193, 212);
     color: lightgray;
     font-style: italic;
 }
+
+/* Media queries
+@media screen and (max-width: 1000px) {
+    #mult-choice-answers {
+        margin: 10px 500px 10px 650px;
+        margin-left: 
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #mult-choice-answers {
+        margin: 10px 400px 10px 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #mult-choice-answers {
+        margin: 10px 300px 10px 250px;
+    }
+} */
