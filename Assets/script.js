@@ -397,7 +397,11 @@ multChoiceAnswers.addEventListener("click", function(event) {
     // Check for Go back button
     if (element.matches("button") && element.id === "go-back") {
         qIndex = 0;
+<<<<<<< HEAD
         secondsLeft = 75;
+=======
+        secondsLeft = 30;
+>>>>>>> d879a9427f5eb94eb330d062c1aa24fda3b76dbc
         score = 0;
         startQuiz();
     }
