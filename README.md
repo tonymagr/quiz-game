@@ -1,99 +1,65 @@
-# 04 Web APIs: Code Quiz
+# Coding Assessment Quiz - Tony Magrady
 
-## Your Task
+## README Author
+Tony Magrady - Berkeley Full-Stack Web Development Bootcamp student <br>
+-- September 5, 2023
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+## Description
+This is my portfolio page, which will be added to as the course progresses. <br>
+Link to page: https://tonymagr.github.io/pro_portfolio/
 
-To help familiarize you with these tests and allow you to use the skills covered in this module, this Challenge invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+This webpage "Project Portfolio" is a collection of my previous full-stack development work for <br>
+prospective employers or customers to review and potentially make available employment or freelance <br>
+opportunities.
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
+HTML & CSS skills I learned while creating this website were:
+- flexbox
+- media queries
+- CSS variables
+- dry and inherited element attribute selection
 
-## User Story
+## Website Image
+![Website Image](./Assets/images/webpage-img.jpg)
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## Challenges
+I was not familiar with the relationship between flexboxes and flex items, which I learned in class <br>
+and in the assignment. The deployed code on the web did not use its styling the first time, which I <br>
+found was a case-sensitivity issue in the link to the stylesheet. This was not an issue in unit testing <br>
+using the Open in Window command.
 
-## Acceptance Criteria
+## Installation
+N/A
 
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
+## Usage
+Potential employers and customers can use this site to review my deployed portfolio of work samples. <br>
+This is a primary resource for the employer or customer to assess my strengths and suitability for an <br>
+open position or to contract for a freelance project.
 
-## Mock-Up
+## Credits
+Sand dunes background from https://pixabay.com/images/search/free%20images/ <br>
+Web Application tiles from https://arasmotech.com/web_app.jsp/
 
-The following animation demonstrates the application functionality:
+## License
+MIT License
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+Copyright (c) 2023 Tony Magrady
 
-## Grading Requirements
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

@@ -301,7 +301,16 @@ function renderHighScores () {
         multChoiceAnswers.style.margin = "10px 250px 10px 350px";
         multChoiceAnswers.appendChild(highScoreEl[i]);
     }
-        
+    
+    // Create one blank row if no high scores
+    if (highScores.length === 0) {
+        highScoreEl[0] = document.createElement("section");
+        highScoreEl[0].style.height = "20px";
+        highScoreEl[0].style.margin = "5px 0px";
+        multChoiceAnswers.style.margin = "10px 250px 10px 350px";
+        multChoiceAnswers.appendChild(highScoreEl[0]);
+    }
+    
     // Create section to override flex-direction to row.
     sectionRow = document.createElement("section");
     sectionRow.style.height = "60px";
@@ -397,11 +406,7 @@ multChoiceAnswers.addEventListener("click", function(event) {
     // Check for Go back button
     if (element.matches("button") && element.id === "go-back") {
         qIndex = 0;
-<<<<<<< HEAD
         secondsLeft = 75;
-=======
-        secondsLeft = 30;
->>>>>>> d879a9427f5eb94eb330d062c1aa24fda3b76dbc
         score = 0;
         startQuiz();
     }
