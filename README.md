@@ -5,39 +5,36 @@ Tony Magrady - Berkeley Full-Stack Web Development Bootcamp student <br>
 -- September 5, 2023
 
 ## Description
-This is my portfolio page, which will be added to as the course progresses. <br>
-Link to page: https://tonymagr.github.io/pro_portfolio/
+Coding Assessment Quiz Game website for new web front-end developers, including HTML, CSS, and Javascript.Link to page: https://tonymagr.github.io/quiz-game/
 
-This webpage "Project Portfolio" is a collection of my previous full-stack development work for <br>
-prospective employers or customers to review and potentially make available employment or freelance <br>
-opportunities.
-
-HTML & CSS skills I learned while creating this website were:
-- flexbox
-- media queries
-- CSS variables
-- dry and inherited element attribute selection
+Javascript skills I learned while creating this website were:
+- Window and DOM basics
+- Modifying HTML elements via JS
+- Styling HTML elements via JS
+- Creating HTML elements via JS
+- Intervals
+- Event listeners
+- Data attributes
+- Local storage
 
 ## Website Image
-![Website Image](./Assets/images/webpage-img.jpg)
+![Website Image](./Assets/img/code-quiz-img.jpg)
 
 ## Challenges
-I was not familiar with the relationship between flexboxes and flex items, which I learned in class <br>
-and in the assignment. The deployed code on the web did not use its styling the first time, which I <br>
-found was a case-sensitivity issue in the link to the stylesheet. This was not an issue in unit testing <br>
-using the Open in Window command.
+Formatting the newly created website via CSS and Javascript can situationally pose challenges. <br>
+Creating child elements that are dynamic buttons and referencing the buttons in parent elements posed <br>
+a few design and logic challenges.<br>
+Managing all storage features was new and required some learning.
 
 ## Installation
 N/A
 
 ## Usage
-Potential employers and customers can use this site to review my deployed portfolio of work samples. <br>
-This is a primary resource for the employer or customer to assess my strengths and suitability for an <br>
-open position or to contract for a freelance project.
+New web front-end developers can use this quiz game tool to sharpen their HTML, CSS, and Javascript skills.
 
 ## Credits
-Sand dunes background from https://pixabay.com/images/search/free%20images/ <br>
-Web Application tiles from https://arasmotech.com/web_app.jsp/
+Logic to sort descending an array of objects (in this case, stored high scores) was from: <br>
+https://stackoverflow.com/questions/1129216/sort-array-of-objects-by-string-property-value
 
 ## License
 MIT License
